@@ -1,8 +1,8 @@
 import os
 
-import numpy as np
-import mujoco
-import mujoco.viewer
+import numpy as np # type: ignore
+import mujoco # type: ignore
+import mujoco.viewer # type: ignore
 import time
 
 
