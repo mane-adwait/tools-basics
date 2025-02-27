@@ -13,7 +13,7 @@ import mujoco
 
 
 def main(argv=None):
-    pass
+    print("Hello, world.")
 
 
 if __name__ == '__main__':
