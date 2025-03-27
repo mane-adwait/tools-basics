@@ -69,7 +69,7 @@ Refer to the official documentation: <https://packaging.python.org/en/latest/gui
 
 (*Note*: Make sure you are using the python installed in the previous step)
 
-## MuJoCo
+# MuJoCo
 
 Launch the MuJoCo viewer:
 ```python
