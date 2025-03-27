@@ -75,3 +75,10 @@ Launch the MuJoCo viewer:
 ```python
 python -m mujoco.viewer
 ```
+
+Open the directory containing the MuJoCo xml file in Nautilus / Files GUI. Drag and drop the xml file into the MuJoCo viewer.
+
+Alternatively, specify the xml file while launching the MuJoCo viewer:
+```python
+python -m mujoco.viewer path/to/your_model.xml
+```
