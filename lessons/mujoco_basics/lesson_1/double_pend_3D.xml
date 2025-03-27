@@ -1,0 +1,27 @@
+<mujoco model="double pendulum">
+
+    <compiler inertiafromgeom="true"/> <!-- Angle units are radians. -->
+
+    <option iterations="1" ls_iterations="5">
+        <flag eulerdamp="disable"/>
+    </option>
+
+    <default> <!-- Applies to all bodies. -->
+        <joint armature="0" damping="1"/>
+        <geom contype="0" conaffinity="0" friction="1 0.1 0.1"/> <!-- No contact. -->
+    </default>
+
+    <worldbody>
+<!-- We will create a separate scene file with tags such as ambient light. -->
+        <geom name="base" type="cylinder" size="0.5 0.1" pos="0 0 0" quat="1 0 0 0"/>
+        <!-- What does quat mean? -->
+        <geom name="base-joint-geom" type="capsule" size="0.15 0.15" pos="0 0 0" quat="0 0 1 1" />
+        <!-- <body name="body-1" pos="0 0 0">
+            <joint name="base-joint" type="hinge" axis="0 0 1"/>
+            <geom name="body-1" type="capsule" size="0 0.01 0.1" pos="0 0 0.1" quat="1 0 0 0"/>
+            <geom name="elbow-joint-geom" /> -->
+
+    </worldbody>
+
+
+</mujoco>

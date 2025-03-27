@@ -7,7 +7,7 @@
 
     <default>
         <joint armature="0" damping="1"/>
-        <geom contype="0" conaffinity="0" friction="1 0.1 0.1"/> 
+        <geom contype="0" conaffinity="0" friction="1 0.1 0.1"/> <!-- No contact. -->
     </default>
 
     <worldbody>
