@@ -36,7 +36,7 @@ brew install python@3.12
 
 For windows installation refer to the official documentation: <https://docs.python.org/3/using/windows.html>
 
-# Setup Virtual Environment and Install Packages:
+# Setup the Virtual Environment and Install Packages
 
 ## Linux and MacOS
 
@@ -50,6 +50,7 @@ python3.12 -m venv env
 
 Source the virtual environment:
 
+Navigate to the location of the virtual environment.
 ```python
 source env/bin/activate
 ```
@@ -67,3 +68,10 @@ pip install mujoco
 Refer to the official documentation: <https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/>
 
 (*Note*: Make sure you are using the python installed in the previous step)
+
+## MuJoCo
+
+Launch the MuJoCo viewer:
+```python
+python -m mujoco.viewer
+```
